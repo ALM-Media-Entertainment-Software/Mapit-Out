@@ -1,8 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Map It Out">
-  <rect width="128" height="128" rx="24" fill="#0f2b46"/>
-  <path d="M24 40l26-10 28 10 26-10v58l-26 10-28-10-26 10z" fill="#1d4f7a" stroke="#4fc3f7" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M50 30v58M78 40v58" stroke="#4fc3f7" stroke-width="3" opacity=".6"/>
-  <circle cx="64" cy="58" r="9" fill="#ffb300"/>
-  <path d="M64 82c-8-10-9-14-9-24h18c0 10-1 14-9 24z" fill="#ffb300" opacity=".0"/>
-  <path d="M40 92l20-22 12 10 20-26" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Mapit Estimating">
+  <defs>
+    <linearGradient id="meGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#082866"/>
+      <stop offset="55%" stop-color="#0a66c2"/>
+      <stop offset="100%" stop-color="#00a8a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="22" fill="#ffffff"/>
+  <path d="M18 96V32h18l20 28 20-28h36l-3 15H84v10h22l-3 14H84v10h25l-3 15H68V59L54 79 40 59v37H18z" fill="url(#meGrad)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M27 88V44"/>
+    <path d="M35 38l19 26 24-26h20"/>
+    <path d="M62 66h24"/>
+    <path d="M74 66v20h20"/>
+  </g>
+  <g fill="#ffffff" stroke="#082866" stroke-width="1.8">
+    <circle cx="27" cy="64" r="3.5"/>
+    <circle cx="54" cy="64" r="4"/>
+    <circle cx="78" cy="38" r="4"/>
+    <circle cx="74" cy="86" r="3.5"/>
+    <circle cx="94" cy="86" r="3.5"/>
+  </g>
 </svg>

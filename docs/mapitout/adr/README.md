@@ -13,6 +13,7 @@ deleted: a changed decision gets a new ADR that supersedes the old one.
 | [0006](0006-quick-quote-is-a-feature-may-split-later.md) | Map It Quick Quote is a feature in this codebase and may split later | proposed |
 | [0007](0007-session-memory-in-a-separate-private-repo.md) | Cross-device session memory lives in a separate private repo of per-session notes | accepted (phase 1 built) |
 | [0008](0008-mcp-adapter-for-the-ledger.md) | MCP adapter for the ledger: zero-dependency stdio server, identity from the environment | accepted (built) |
+| [0009](0009-apache2-commercial-fork-telemetry-sovereignty-and-rebrand.md) | Apache 2.0 commercial fork, first-party telemetry sovereignty, and Mapit Estimating rebrand | accepted (built; sink & Gemma detector OPEN) |
 
 ## Template
 
