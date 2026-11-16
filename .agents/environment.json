@@ -1,0 +1,3 @@
+{
+  "install": "sed -i '/case \\$- in/,/esac/d' ~/.bashrc 2>/dev/null || true && mkdir -p ~/.local/bin && REPO_ROOT=\"$(pwd)\" && printf '#!/usr/bin/env bash\\nexec node \"%s/tools/ledger/cli.mjs\" \"$@\"\\n' \"$REPO_ROOT\" > ~/.local/bin/ledger && printf '#!/usr/bin/env bash\\nexec node \"%s/tools/ledger/mcp.mjs\" \"$@\"\\n' \"$REPO_ROOT\" > ~/.local/bin/ledger-mcp && printf '#!/usr/bin/env bash\\nexec node \"%s/tools/memory/memnote.mjs\" \"$@\"\\n' \"$REPO_ROOT\" > ~/.local/bin/memnote && chmod +x ~/.local/bin/ledger ~/.local/bin/ledger-mcp ~/.local/bin/memnote && (grep -qxF 'export PATH=\"$HOME/.local/bin:$PATH\"' ~/.bashrc 2>/dev/null || echo 'export PATH=\"$HOME/.local/bin:$PATH\"' >> ~/.bashrc) && node tools/ledger/cli.mjs verify"
+}
